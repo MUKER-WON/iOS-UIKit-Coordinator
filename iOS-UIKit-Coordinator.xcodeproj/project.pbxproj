@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B59B8B1F2BB326A300D739DA /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B1E2BB326A300D739DA /* CoordinatorProtocol.swift */; };
+		B59B8B212BB326BB00D739DA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B202BB326BB00D739DA /* AppCoordinator.swift */; };
+		B59B8B2B2BB327C400D739DA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B2A2BB327C400D739DA /* FirstViewController.swift */; };
+		B59B8B2D2BB327CF00D739DA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B2C2BB327CF00D739DA /* SecondViewController.swift */; };
+		B59B8B2F2BB4036700D739DA /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B2E2BB4036700D739DA /* TabBarCoordinator.swift */; };
+		B59B8B312BB404B600D739DA /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B302BB404B600D739DA /* FirstViewModel.swift */; };
+		B59B8B332BB404BF00D739DA /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B322BB404BF00D739DA /* SecondViewModel.swift */; };
+		B59B8B382BB4167300D739DA /* FirstViewCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B372BB4167300D739DA /* FirstViewCoordinatorProtocol.swift */; };
+		B59B8B3C2BB4169D00D739DA /* SecondViewCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B3B2BB4169D00D739DA /* SecondViewCoordinatorProtocol.swift */; };
+		B59B8B3E2BB416AA00D739DA /* FirstViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B3D2BB416AA00D739DA /* FirstViewCoordinator.swift */; };
+		B59B8B402BB416B500D739DA /* SecondViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B3F2BB416B500D739DA /* SecondViewCoordinator.swift */; };
+		B59B8B4B2BB43A3C00D739DA /* TabBarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B4A2BB43A3C00D739DA /* TabBarType.swift */; };
 		B5A43B232BB3210300CEC050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A43B222BB3210300CEC050 /* AppDelegate.swift */; };
 		B5A43B252BB3210300CEC050 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A43B242BB3210300CEC050 /* SceneDelegate.swift */; };
-		B5A43B272BB3210300CEC050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A43B262BB3210300CEC050 /* ViewController.swift */; };
-		B5A43B2A2BB3210300CEC050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A43B282BB3210300CEC050 /* Main.storyboard */; };
 		B5A43B2C2BB3210500CEC050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A43B2B2BB3210500CEC050 /* Assets.xcassets */; };
 		B5A43B2F2BB3210500CEC050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A43B2D2BB3210500CEC050 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B59B8B1E2BB326A300D739DA /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		B59B8B202BB326BB00D739DA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B59B8B2A2BB327C400D739DA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B59B8B2C2BB327CF00D739DA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B59B8B2E2BB4036700D739DA /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		B59B8B302BB404B600D739DA /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		B59B8B322BB404BF00D739DA /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		B59B8B372BB4167300D739DA /* FirstViewCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		B59B8B3B2BB4169D00D739DA /* SecondViewCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		B59B8B3D2BB416AA00D739DA /* FirstViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewCoordinator.swift; sourceTree = "<group>"; };
+		B59B8B3F2BB416B500D739DA /* SecondViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewCoordinator.swift; sourceTree = "<group>"; };
+		B59B8B4A2BB43A3C00D739DA /* TabBarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarType.swift; sourceTree = "<group>"; };
 		B5A43B1F2BB3210300CEC050 /* iOS-UIKit-Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-UIKit-Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A43B222BB3210300CEC050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5A43B242BB3210300CEC050 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5A43B262BB3210300CEC050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5A43B292BB3210300CEC050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5A43B2B2BB3210500CEC050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5A43B2E2BB3210500CEC050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5A43B302BB3210500CEC050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +57,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B59B8B1D2BB3269600D739DA /* BaseCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B1E2BB326A300D739DA /* CoordinatorProtocol.swift */,
+				B59B8B202BB326BB00D739DA /* AppCoordinator.swift */,
+			);
+			path = BaseCoordinator;
+			sourceTree = "<group>";
+		};
+		B59B8B222BB326C300D739DA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B342BB405A500D739DA /* TabBar */,
+				B59B8B272BB3277900D739DA /* FirstView */,
+				B59B8B282BB3279400D739DA /* SecondView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B59B8B242BB3274200D739DA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B5A43B222BB3210300CEC050 /* AppDelegate.swift */,
+				B5A43B242BB3210300CEC050 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B59B8B272BB3277900D739DA /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B392BB4167B00D739DA /* Coordinator */,
+				B59B8B412BB416F100D739DA /* ViewModel */,
+				B59B8B442BB4170F00D739DA /* View */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		B59B8B282BB3279400D739DA /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B3A2BB4168100D739DA /* Coordinator */,
+				B59B8B422BB4170000D739DA /* ViewModel */,
+				B59B8B432BB4170700D739DA /* View */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		B59B8B342BB405A500D739DA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B4A2BB43A3C00D739DA /* TabBarType.swift */,
+				B59B8B2E2BB4036700D739DA /* TabBarCoordinator.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B59B8B392BB4167B00D739DA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B372BB4167300D739DA /* FirstViewCoordinatorProtocol.swift */,
+				B59B8B3D2BB416AA00D739DA /* FirstViewCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B59B8B3A2BB4168100D739DA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B3B2BB4169D00D739DA /* SecondViewCoordinatorProtocol.swift */,
+				B59B8B3F2BB416B500D739DA /* SecondViewCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B59B8B412BB416F100D739DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B302BB404B600D739DA /* FirstViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B59B8B422BB4170000D739DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B322BB404BF00D739DA /* SecondViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B59B8B432BB4170700D739DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B2C2BB327CF00D739DA /* SecondViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B59B8B442BB4170F00D739DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B59B8B2A2BB327C400D739DA /* FirstViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B5A43B162BB3210300CEC050 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +183,9 @@
 		B5A43B212BB3210300CEC050 /* iOS-UIKit-Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				B5A43B222BB3210300CEC050 /* AppDelegate.swift */,
-				B5A43B242BB3210300CEC050 /* SceneDelegate.swift */,
-				B5A43B262BB3210300CEC050 /* ViewController.swift */,
-				B5A43B282BB3210300CEC050 /* Main.storyboard */,
+				B59B8B242BB3274200D739DA /* Application */,
+				B59B8B1D2BB3269600D739DA /* BaseCoordinator */,
+				B59B8B222BB326C300D739DA /* Presentation */,
 				B5A43B2B2BB3210500CEC050 /* Assets.xcassets */,
 				B5A43B2D2BB3210500CEC050 /* LaunchScreen.storyboard */,
 				B5A43B302BB3210500CEC050 /* Info.plist */,
@@ -127,7 +253,6 @@
 			files = (
 				B5A43B2F2BB3210500CEC050 /* LaunchScreen.storyboard in Resources */,
 				B5A43B2C2BB3210500CEC050 /* Assets.xcassets in Resources */,
-				B5A43B2A2BB3210300CEC050 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +263,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A43B272BB3210300CEC050 /* ViewController.swift in Sources */,
+				B59B8B2D2BB327CF00D739DA /* SecondViewController.swift in Sources */,
+				B59B8B332BB404BF00D739DA /* SecondViewModel.swift in Sources */,
+				B59B8B2B2BB327C400D739DA /* FirstViewController.swift in Sources */,
+				B59B8B382BB4167300D739DA /* FirstViewCoordinatorProtocol.swift in Sources */,
+				B59B8B1F2BB326A300D739DA /* CoordinatorProtocol.swift in Sources */,
+				B59B8B312BB404B600D739DA /* FirstViewModel.swift in Sources */,
+				B59B8B402BB416B500D739DA /* SecondViewCoordinator.swift in Sources */,
+				B59B8B3C2BB4169D00D739DA /* SecondViewCoordinatorProtocol.swift in Sources */,
+				B59B8B4B2BB43A3C00D739DA /* TabBarType.swift in Sources */,
+				B59B8B2F2BB4036700D739DA /* TabBarCoordinator.swift in Sources */,
+				B59B8B212BB326BB00D739DA /* AppCoordinator.swift in Sources */,
 				B5A43B232BB3210300CEC050 /* AppDelegate.swift in Sources */,
 				B5A43B252BB3210300CEC050 /* SceneDelegate.swift in Sources */,
+				B59B8B3E2BB416AA00D739DA /* FirstViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B5A43B282BB3210300CEC050 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5A43B292BB3210300CEC050 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5A43B2D2BB3210500CEC050 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +425,6 @@
 				INFOPLIST_FILE = "iOS-UIKit-Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +452,6 @@
 				INFOPLIST_FILE = "iOS-UIKit-Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
