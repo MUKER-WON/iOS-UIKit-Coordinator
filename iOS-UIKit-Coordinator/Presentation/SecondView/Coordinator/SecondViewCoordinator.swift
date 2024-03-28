@@ -13,9 +13,14 @@ final class SecondViewCoordinator: SecondViewCoordinatorProtocol {
     var childrenCoordinator: [Coordinator] = []
     var navigationController: UINavigationController
     var coordinatorType: CoordinatorType = .second
+    var coordinatorProvier: CoordinatorProviderProtocol
     
-    init(navigationController: UINavigationController) {
+    init(
+        navigationController: UINavigationController,
+        coordinatorProvier: CoordinatorProviderProtocol
+    ) {
         self.navigationController = navigationController
+        self.coordinatorProvier = coordinatorProvier
     }
     
     func start() {

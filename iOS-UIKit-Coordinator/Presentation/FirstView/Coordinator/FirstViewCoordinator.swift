@@ -13,9 +13,14 @@ final class FirstViewCoordinator: FirstViewCoordinatorProtocol {
     var childrenCoordinator: [Coordinator] = []
     var navigationController: UINavigationController
     var coordinatorType: CoordinatorType = .first
+    var coordinatorProvier: CoordinatorProviderProtocol
     
-    init(navigationController: UINavigationController) {
+    init(
+        navigationController: UINavigationController,
+        coordinatorProvier: CoordinatorProviderProtocol
+    ) {
         self.navigationController = navigationController
+        self.coordinatorProvier = coordinatorProvier
     }
     
     func start() {
@@ -26,7 +31,9 @@ final class FirstViewCoordinator: FirstViewCoordinatorProtocol {
     
     private func setupFirstViewCoordinator() {
         let firstViewController = FirstViewController(
-            viewModel: FirstViewModel()
+            viewModel: FirstViewModel(
+                coordinator: self
+            )
         )
         
         navigationController.setViewControllers(

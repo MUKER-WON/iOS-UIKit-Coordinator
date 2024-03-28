@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol Coordinator {
+protocol Coordinator: AnyObject {
     
     var parentCoordinator: Coordinator? { get set }
     var childrenCoordinator: [Coordinator] { get set }
@@ -17,10 +17,9 @@ protocol Coordinator {
     func start()
 }
 
-enum CoordinatorType {
+extension Coordinator {
     
-    case app
-    case tab
-    case first
-    case second
+    func addChildrenCoordinator(_ coordinator: Coordinator) {
+        childrenCoordinator.append(coordinator)
+    }
 }

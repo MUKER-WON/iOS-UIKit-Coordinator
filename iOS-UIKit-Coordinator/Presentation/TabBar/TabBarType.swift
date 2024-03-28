@@ -31,19 +31,22 @@ enum TabBarType: Int, CaseIterable {
     }
     
     func makeChidrenCoordinator(
-        navigationController: UINavigationController
+        navigationController: UINavigationController,
+        coordinatorProvider: CoordinatorProviderProtocol
     ) -> Coordinator {
         switch self {
             case .first:
                 let coordinator = FirstViewCoordinator(
-                    navigationController: navigationController
+                    navigationController: navigationController,
+                    coordinatorProvier: coordinatorProvider
                 )
                 
                 return coordinator
                 
             case .second:
                 let coordinator = SecondViewCoordinator(
-                    navigationController: navigationController
+                    navigationController: navigationController,
+                    coordinatorProvier: coordinatorProvider
                 )
                 
                 return coordinator

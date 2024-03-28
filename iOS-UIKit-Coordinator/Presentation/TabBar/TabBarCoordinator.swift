@@ -13,9 +13,14 @@ final class TabBarCoordinator: Coordinator {
     var childrenCoordinator: [Coordinator] = []
     var navigationController: UINavigationController
     var coordinatorType: CoordinatorType = .tab
+    var coordinatorProvider: CoordinatorProviderProtocol
     
-    init(navigationController: UINavigationController) {
+    init(
+        navigationController: UINavigationController,
+        coordinatorProvier: CoordinatorProviderProtocol
+    ) {
         self.navigationController = navigationController
+        self.coordinatorProvider = coordinatorProvier
     }
     
     func start() {
@@ -66,10 +71,11 @@ final class TabBarCoordinator: Coordinator {
         navigationController: UINavigationController
     ) {
         let coordinator = tab.makeChidrenCoordinator(
-            navigationController: navigationController
+            navigationController: navigationController,
+            coordinatorProvider: coordinatorProvider
         )
         
-        childrenCoordinator.append(coordinator)
+        addChildrenCoordinator(coordinator)
         coordinator.start()
     }
 }
