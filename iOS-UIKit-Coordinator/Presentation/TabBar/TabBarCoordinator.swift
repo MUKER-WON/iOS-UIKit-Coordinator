@@ -54,15 +54,12 @@ final class TabBarCoordinator: Coordinator {
             let navigationController = UINavigationController()
             navigationController.navigationBar.backgroundColor = .yellow
             navigationController.tabBarItem = tab.tabItem
-            
             setupChildrenCoordinator(
                 tab: tab,
                 navigationController: navigationController
             )
-            
             return navigationController
         }
-        
         return viewControllers
     }
     
@@ -74,7 +71,6 @@ final class TabBarCoordinator: Coordinator {
             navigationController: navigationController,
             coordinatorProvider: coordinatorProvider
         )
-        
         addChildrenCoordinator(coordinator)
         coordinator.start()
     }

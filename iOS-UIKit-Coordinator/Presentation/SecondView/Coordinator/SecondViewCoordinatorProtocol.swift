@@ -9,4 +9,5 @@ import Foundation
 
 protocol SecondViewCoordinatorProtocol: Coordinator {
     
+    func startFirstView()
 }

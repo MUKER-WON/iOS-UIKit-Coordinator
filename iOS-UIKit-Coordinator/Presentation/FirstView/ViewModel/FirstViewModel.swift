@@ -9,9 +9,9 @@ import Foundation
 
 final class FirstViewModel {
     
-    private let coordinator: FirstViewCoordinator
+    private let coordinator: FirstViewCoordinatorProtocol
     
-    init(coordinator: FirstViewCoordinator) {
+    init(coordinator: FirstViewCoordinatorProtocol) {
         self.coordinator = coordinator
     }
     

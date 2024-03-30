@@ -8,7 +8,7 @@
 import UIKit
 
 protocol Coordinator: AnyObject {
-    
+
     var parentCoordinator: Coordinator? { get set }
     var childrenCoordinator: [Coordinator] { get set }
     var navigationController: UINavigationController { get set }
@@ -18,7 +18,7 @@ protocol Coordinator: AnyObject {
 }
 
 extension Coordinator {
-    
+
     func addChildrenCoordinator(_ coordinator: Coordinator) {
         childrenCoordinator.append(coordinator)
     }

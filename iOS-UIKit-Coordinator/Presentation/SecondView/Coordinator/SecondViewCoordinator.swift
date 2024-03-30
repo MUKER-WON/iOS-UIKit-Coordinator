@@ -27,16 +27,30 @@ final class SecondViewCoordinator: SecondViewCoordinatorProtocol {
         setupSecondViewCoordinator()
     }
     
+    func startFirstView() {
+        setupFirstViewcoordinator()
+    }
+    
     // MARK: - Internal Function
     
     private func setupSecondViewCoordinator() {
         let secondViewController = SecondViewController(
-            viewModel: SecondViewModel()
+            viewModel: SecondViewModel(
+                coordinator: self
+            )
         )
-        
         navigationController.setViewControllers(
             [secondViewController],
             animated: true
         )
+    }
+    
+    private func setupFirstViewcoordinator() {
+        let firstViewCoordinator = coordinatorProvier.makeFirstViewCoordinator(
+            parentCoordinator: self,
+            navigationController: navigationController
+        )
+        addChildrenCoordinator(firstViewCoordinator)
+        firstViewCoordinator.start()
     }
 }

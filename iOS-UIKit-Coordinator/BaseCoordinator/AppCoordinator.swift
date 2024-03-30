@@ -29,7 +29,6 @@ final class AppCoordinator: Coordinator {
             navigationController: navigationController,
             coordinatorProvier: CoordinatorProvider()
         )
-        
         addChildrenCoordinator(tabBarCoordinator)
         tabBarCoordinator.start()
     }

@@ -19,6 +19,16 @@ class FirstViewController: UIViewController {
         return label
     }()
     
+    private let secondViewFlowButton: UIButton = {
+        let config = Configuration.buttonConfiguration(
+            configuration: .filled(),
+            title: "하이루루",
+            backgroundColor: .cyan
+        )
+        let button = UIButton(configuration: config)
+        return button
+    }()
+    
     // MARK: - Life Cycle
     
     init(viewModel: FirstViewModel) {
@@ -44,6 +54,7 @@ class FirstViewController: UIViewController {
         
         [
             pageNumberLabel,
+            secondViewFlowButton,
         ].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
             view.addSubview($0)
@@ -58,6 +69,13 @@ class FirstViewController: UIViewController {
                 equalTo: view.centerXAnchor
             ),
 
+            secondViewFlowButton.bottomAnchor.constraint(
+                equalTo: view.safeAreaLayoutGuide.bottomAnchor,
+                constant: -10
+            ),
+            secondViewFlowButton.centerXAnchor.constraint(
+                equalTo: view.centerXAnchor
+            )
         ])
         
     }

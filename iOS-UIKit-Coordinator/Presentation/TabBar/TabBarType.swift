@@ -20,7 +20,6 @@ enum TabBarType: Int, CaseIterable {
                     image: .init(systemName: "1.circle"),
                     tag: rawValue
                 )
-                
             case .second:
                 return .init(
                     title: "Second",
@@ -40,15 +39,12 @@ enum TabBarType: Int, CaseIterable {
                     navigationController: navigationController,
                     coordinatorProvier: coordinatorProvider
                 )
-                
                 return coordinator
-                
             case .second:
                 let coordinator = SecondViewCoordinator(
                     navigationController: navigationController,
                     coordinatorProvier: coordinatorProvider
                 )
-                
                 return coordinator
         }
     }

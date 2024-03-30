@@ -9,4 +9,10 @@ import Foundation
 
 final class SecondViewModel {
     
+    private let coordinator: SecondViewCoordinatorProtocol
+    
+    init(coordinator: SecondViewCoordinatorProtocol) {
+        self.coordinator = coordinator
+    }
+    
 }

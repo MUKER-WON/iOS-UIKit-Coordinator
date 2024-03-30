@@ -8,6 +8,7 @@
 import UIKit
 
 final class CoordinatorProvider: CoordinatorProviderProtocol {
+    
     func makeFirstViewCoordinator(
         parentCoordinator: Coordinator,
         navigationController: UINavigationController

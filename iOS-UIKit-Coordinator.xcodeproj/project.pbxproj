@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B539C49B2BB70D3D009D4570 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539C49A2BB70D3D009D4570 /* Configuration.swift */; };
 		B59B8B1F2BB326A300D739DA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B1E2BB326A300D739DA /* Coordinator.swift */; };
 		B59B8B212BB326BB00D739DA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B202BB326BB00D739DA /* AppCoordinator.swift */; };
 		B59B8B2B2BB327C400D739DA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B8B2A2BB327C400D739DA /* FirstViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B539C49A2BB70D3D009D4570 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		B59B8B1E2BB326A300D739DA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B59B8B202BB326BB00D739DA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		B59B8B2A2BB327C400D739DA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				B5A43B222BB3210300CEC050 /* AppDelegate.swift */,
 				B5A43B242BB3210300CEC050 /* SceneDelegate.swift */,
+				B539C49A2BB70D3D009D4570 /* Configuration.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				B59B8B3C2BB4169D00D739DA /* SecondViewCoordinatorProtocol.swift in Sources */,
 				B59B8B4B2BB43A3C00D739DA /* TabBarType.swift in Sources */,
 				B59B8B2F2BB4036700D739DA /* TabBarCoordinator.swift in Sources */,
+				B539C49B2BB70D3D009D4570 /* Configuration.swift in Sources */,
 				B59B8B212BB326BB00D739DA /* AppCoordinator.swift in Sources */,
 				B5A43B232BB3210300CEC050 /* AppDelegate.swift in Sources */,
 				B5A43B252BB3210300CEC050 /* SceneDelegate.swift in Sources */,
