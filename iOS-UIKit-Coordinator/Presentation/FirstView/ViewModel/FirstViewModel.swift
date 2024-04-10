@@ -15,4 +15,8 @@ final class FirstViewModel {
         self.coordinator = coordinator
     }
     
+    func startSecondView() {
+        coordinator.startSecondView()
+    }
+    
 }

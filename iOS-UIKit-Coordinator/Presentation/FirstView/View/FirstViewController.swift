@@ -22,10 +22,13 @@ class FirstViewController: UIViewController {
     private let secondViewFlowButton: UIButton = {
         let config = Configuration.buttonConfiguration(
             configuration: .filled(),
-            title: "하이루루",
+            title: "SecondView로 이동",
             backgroundColor: .cyan
         )
-        let button = UIButton(configuration: config)
+        let action = UIAction(handler: { _ in
+            
+        })
+        let button = UIButton(configuration: config,primaryAction: action)
         return button
     }()
     
